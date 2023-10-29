@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(180, 158, 128);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(194, 42, 42);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        header > h1 {
+            color: white;
+        }
+
+        main {
+            background-color: rgb(187, 187, 72);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);    
+        }
+
+        footer {
+            background-color: rgb(114, 37, 37);
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 5px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            border-radius: 20px 0px;
+        }
+
+        article {
+            background-color: darkgray;
+            padding: 5px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            border-radius: 20px 0px;
+        }
+
+        article > aside {
+            background-color: rgb(85, 83, 83);
+            border-radius: 20px 0px;
+        }
+
+        nav {
+            background-color: darkgray;
+            padding: 5px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            border-radius: 20px 0px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        a:active {
+            color: brown;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero consectetur laboriosam nemo. Molestiae praesentium deserunt animi labore possimus quia fugiat nesciunt! Consequatur debitis recusandae dolore optio repellendus magni ipsa quaerat!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jv<p>
+    </footer>
+</body>
+</html>
