@@ -20,6 +20,7 @@ header {
     text-align: center;
     font-family: 'Passion One';
     padding-top: 80px;
+    font-variant: small-caps;
 }
 
 .paragrafo {
@@ -49,10 +50,42 @@ p {
     width: 400px;
     padding: 50px;
     font-family: 'Sriracha';
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+
+.fundo {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.fundo2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.modificado {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.378);
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
