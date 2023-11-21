@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 header {
@@ -61,9 +61,11 @@ p {
     padding-bottom: 10vh;
     padding-left: 30px;
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.545);
 }
 
 
@@ -73,14 +75,18 @@ p {
     padding-bottom: 10vh;
     padding-left: 30px;
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.528);
 }
 
 .modificado {
+    display: inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.378);
+    background-color: rgba(0, 0, 0, 0.516);
+    text-shadow: 1px 1px 1px black;
 }
 
 footer {
