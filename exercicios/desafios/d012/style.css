@@ -83,7 +83,6 @@ p {
 }
 
 .modificado {
-    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.516);
     text-shadow: 1px 1px 1px black;
