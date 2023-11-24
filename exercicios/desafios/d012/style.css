@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+header > p {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+}
+
+section > p {
+    padding: 40px;
+    font-family: 'Sriracha';
+    line-height: 50px;    
+}
+
+.paragrafo {
+    background-color: rgba(0, 0, 0, 0.509);
+    width: 400px;
+    padding: 40px;
+    color: white;
+}
+
+.paragrafo2 {
+    background-color: rgba(0, 0, 0, 0.509);
+    width: 400px;
+    color: white;
+}
+
+.primeiro {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.504);
+}
+
+.segundo {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.504);
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
