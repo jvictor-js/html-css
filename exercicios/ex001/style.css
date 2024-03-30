@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: purple;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+section {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+footer {
+    background-color: black;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+}

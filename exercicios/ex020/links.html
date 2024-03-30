@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            background-color: rgba(185, 30, 30, 0.532);
+            color: white;
+            border-radius: 5px;
+        }
+
+        a:active {
+            background-color: purple;
+        }
+
+
+        .especial::before {
+            content: '➔ ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/jvictor-js" target="_blank" rel="external" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCQu_WSDG59uXD6rI4vHkBRA" target="_blank" rel="external">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

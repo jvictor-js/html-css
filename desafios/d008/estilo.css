@@ -1,0 +1,17 @@
+body#cinza {
+    background-color: gray;
+    color: black;
+    font: normal 16pt Arial;
+}
+
+body#verde {
+    background-color: rgb(149, 206, 144);
+    color: rgb(0, 74, 0);
+    font: normal 16pt Arial;
+}
+
+body#amarelo {
+    background-color: rgb(243, 243, 158);
+    color: rgb(67, 67, 1);
+    font: normal 16pt Arial;
+}
