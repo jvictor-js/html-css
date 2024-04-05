@@ -2,12 +2,13 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/d010/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf');
 }
 
 
 * {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
